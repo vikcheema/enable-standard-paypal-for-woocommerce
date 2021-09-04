@@ -7,11 +7,11 @@
  *
  * @wordpress-plugin
  * Plugin Name:       Enable Standard PayPal for WooCommerce
- * Plugin URI:        https://vikcheema.com
+ * Plugin URI:        http://vikcheema.com/enable-standard-paypal-for-woocommerce
  * Description:       This plugin provides the ability to enable the PayPal Standard Payment Method for WooCommerce which is disabled since WooCommerce version 5.5.0
  * Version:           1.0.0
  * Author:            Vik Cheema
- * Author URI:        https://vikcheema.com
+ * Author URI:        http://vikcheema.com
  * Text Domain:       enable-standard-paypal-for-woocommerce
  * WC requires at least: 5.5.0
  * WC tested up to:   5.6.0
