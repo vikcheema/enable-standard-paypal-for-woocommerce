@@ -24,9 +24,9 @@
  /**
   * Let all the plugins load first
   **/
- add_action ('plugins_loaded', 'mos_check_plugins_loaded');
+ add_action ('plugins_loaded', 'espw_check_plugins_loaded');
 
- function mos_check_plugins_loaded () {
+ function espw_check_plugins_loaded () {
 
      /**
       * Check if WooCommerce is active
