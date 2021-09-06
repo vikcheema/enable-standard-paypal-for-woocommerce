@@ -41,8 +41,16 @@
     		/**
     		* Add the filter to enable the hidden standard paypal for WooCommerce
     		*/
-    		add_filter( 'woocommerce_should_load_paypal_standard', '__return_true' );
+    		add_filter( 'woocommerce_should_load_paypal_standard', 'espw_load_paypal_stadard', 11, 2 );
 
     	}
      }
+ }
+
+ /**
+ * return true to enable the gateway
+ */
+ function espw_load_paypal_stadard( $should_load, $instance ) {
+    $should_load = true;
+    return $should_load;
  }
